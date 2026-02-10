@@ -1,6 +1,6 @@
 # SentinelAI SOC
 
-Security operations demo stack with log ingestion, alerting, UEBA, ML anomaly detection, and incident reporting.
+Security operations stack with log ingestion, alerting, UEBA, ML anomaly detection, and incident reporting.
 
 **Stack**
 - Backend: FastAPI + MongoDB (Motor)
