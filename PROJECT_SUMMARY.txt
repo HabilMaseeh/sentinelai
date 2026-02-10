@@ -1,0 +1,40 @@
+﻿SentinelAI Project Summary
+
+Industry
+- Cybersecurity (Security Operations Center / SOC), specifically SIEM and UEBA monitoring.
+
+Problem Level
+- Operational level: day-to-day security monitoring, triage, and incident investigation for SOC analysts and responders.
+
+What This Project Does
+- Provides a lightweight SOC dashboard with three core views: Alerts, Incidents, and Logs.
+- Shows near-real-time alerts via polling and WebSocket updates.
+- Surfaces UEBA incidents with risk scores, timelines, graphs, and contextual details.
+- Enables exporting incident reports in TXT/HTML for sharing and documentation.
+
+Why It Needs To Be Built
+- Security teams drown in noisy logs and alerts; this UI centralizes the signal.
+- Faster triage reduces dwell time and helps prevent minor events from becoming major incidents.
+- Clear, structured views help analysts make consistent decisions under time pressure.
+
+How It Helps Industry And People
+- SOC analysts get quicker visibility into risk and context.
+- Incident responders get a focused workflow for investigation and reporting.
+- Managers get clearer operational insight into active threats.
+- Organizations reduce response time, improve accountability, and build audit-ready records.
+
+Where to get real logs (no excuses version)
+
+Your own machines
+Linux: authentication logs (auth.log or /var/log/secure)
+Windows: Security Event Logs
+This is the most honest, legal, and relevant source for your system.
+A controlled lab
+Spin up a VM, enable SSH, and generate real activity (success + failed logins).
+This gives you clean, labeled “normal” vs “abnormal” patterns.
+Honeypots (real attacker traffic)
+Run an SSH honeypot in a sandboxed environment.
+You’ll get real attack behavior but do it safely and never on production.
+Public cybersecurity datasets
+Use them for baseline training or demos, but they rarely match your exact environment.
+Treat them as starter fuel, not final truth.
